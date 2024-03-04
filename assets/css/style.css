@@ -7,7 +7,16 @@ body{
     margin:0;
   }
 
-header.primary{
+  .img-right{
+    float:right;
+    margin: 10px 0 10px 20px;
+    border:1px solid whitesmoke;
+    padding:5px;
+    border-radius:50px;
+    max-width:6%;
+  }
+   
+  header.primary{
     color:whitesmoke;
   text-decoration: none;
     text-shadow: 1px 1px #000000;
@@ -19,4 +28,5 @@ nav.primary{
     border: 1.5px solid; 
     border-color:whitesmoke;
 }
+
 
