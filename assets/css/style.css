@@ -29,12 +29,14 @@ ul{
 }
 
 nav.primary ul{
-  display:block;
-  border: 4px double #1c1e5a;
-  background-color:lightblue;
   display:flex;
   flex-direction:column;
+  justify-content:space-around;
+  border: 4px double #1c1e5a;
+  background-color:lightblue;
   gap: .5rem;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 nav.primary ul:hover{
