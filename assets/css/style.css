@@ -28,20 +28,35 @@ ul{
   list-style-type:square;
 }
 
-nav.primary ul{
+nav.primary ul {
   display:flex;
   flex-direction:column;
   justify-content:space-around;
   border: 4px double #1c1e5a;
   background-color:lightblue;
-  gap: .5rem;
+  gap: 1rem;
   margin-left:20px;
   margin-right:20px;
 }
 
-nav.primary ul:hover{
+nav.primary ul ul:hover{
   box-shadow:10px 10px 5px 0px rgba(22, 32, 77, 0.75);
   transition: .5s;
 }
+
+nav.primary ul ul{
+border: 4px double #1c1e5a;
+list-style-position:outside; 
+list-style-type:circle;
+margin-left:0;
+  margin-right:20px;
+}
+
+li.primary {
+  font-weight:bold;
+  list-style:none;
+
+}
+
 
 
