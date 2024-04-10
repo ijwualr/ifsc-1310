@@ -35,9 +35,8 @@ img{
   .img3{
     max-width:55%;
     border:2px solid #000057;
-   
   }
-
+  
   .img1{
   padding-left:125px;
   }
@@ -222,6 +221,42 @@ padding: 10px;
 color:white;
 font-size:1.5rem;
 }
+
+#blog .post{
+  transition: .5s;
+  box-shadow: 0 6px 14px lightblue;
+  background-color:#c7c5c5;
+  gap:2rem;
+  border-bottom:2px solid rgb(40, 40, 183);
+  border-left:2px solid rgb(40, 40, 183);
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding-left: 10rem;
+  border-top: 2px solid rgb(40, 40, 183);
+  border-right: 2px solid rgb(40, 40, 183);
+  padding-top: 1rem;
+  padding-right:10rem;
+}
+#blog .post:hover{
+  box-shadow: 0 10px 20px blue;
+}
+
+.container .post .img3{
+max-width: 600px;
+max-height:800px;
+}
+
+#blog figure{
+  margin:0;
+}
+
+#blog figcaption{
+  text-transform:uppercase;
+  font-size:2rem;
+  text-align:center;
+  color:rgb(15, 15, 67);
+}
+
 
 @media screen and (max-width:600px){
     header.primary ul {
