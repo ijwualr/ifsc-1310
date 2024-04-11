@@ -242,6 +242,7 @@ font-size:1.5rem;
 }
 
 .container .post .img3{
+justify-content: center;
 max-width: 600px;
 max-height:800px;
 }
