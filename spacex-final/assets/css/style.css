@@ -1,0 +1,273 @@
+/*---CSS Demo---*/
+body{
+    background-color:#c7c5c5;
+}
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+/*  ---------------Responsive Images-----------------  */
+img{
+  max-width:100%;
+}
+
+
+  /*  ---------------Utility Classes-----------------  */
+
+  .container{
+    max-width: 960px;
+    width:80vw;
+    margin:40px auto;
+  }
+
+  .img2{
+    float:right;
+    border:3px solid #000057;
+    max-width:50%;
+  }
+  
+  .img3{
+    max-width:55%;
+    border:3px solid #000057;
+    float: center;
+  }
+  
+  .img1{
+  padding-left:125px;
+  }
+
+  .img4{
+    float:right;
+    border:3px solid #000057;
+    max-width:45%;
+  }
+
+  .img5{
+    margin:25px;
+    float:right;
+    border:3px solid #000057;
+    max-width:30%;
+  }
+  .img6{
+    margin:25px;
+    float:right;
+    border:3px solid #000057;
+    max-width:30%;
+  }
+  
+
+
+
+  /*  ---------------Global Styles-----------------  */
+
+  body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    background-repeat:no-repeat;
+    background-size:contain;
+  }
+
+  header.primary{
+background-image: url("../img/spacex.jpeg");
+background-size:1475px;
+    color:whitesmoke;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+    padding:40px;
+    padding-right:100px;
+  }
+
+  header.primary h1 {
+  font-size: 2.25em;
+  margin:20px 0 0;
+  }
+
+  header.primary h1 a{
+  color:#c7c5c5;
+  text-decoration-style:underline;
+  }
+
+  header.primary h2 {
+    margin:0;
+  }
+
+  header.primary nav {
+  max-width:900px;
+  margin: 20px auto;
+  }
+
+  header.primary ul {
+    padding:5px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  header.primary ul li {
+  list-style-type:none
+  }
+
+  header.primary nav a{
+  color:#c7c5c5;
+  text-decoration:none;
+  background-color:rgba(31, 31, 126, 0.84);
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid; 
+  transition:.5s;
+  }
+
+  header.primary nav a:hover{
+    background-color:rgba(0, 0, 0, .8);
+  }
+
+  #content{
+    line-height:1.5;
+  }
+
+  #content h2{
+    color:darkblue;
+    border-bottom:3px solid black;
+  }
+
+  #content h3{
+    color:darkblue;
+    border-left:5px solid rgb(3, 14, 71);
+    padding:7.5px;
+  }
+
+#content h4{
+  color:darkblue;
+}
+
+table{  
+  border: 1px solid #c0c0c0;
+  width: 100%;
+  margin:20px 0;
+  
+}
+caption{
+  font-weight:bold;
+  margin:10px;
+  color:darkblue;
+}
+
+th{
+  background-color: #172635;
+  color:#ffffff;
+  padding:7.5px;
+}
+
+tr:nth-child(even){
+  background-color: rgb(127, 143, 153);
+}
+
+tr:hover{
+  background-color: #3b567d;
+}
+
+td:nth-child(n+2){
+  text-align:right;
+}
+
+td{
+  border:1px solid rgb(0, 0, 0);
+  padding: 5px;
+  }
+
+ul ul{
+list-style: '‒';
+}
+
+ul{
+  list-style: '🚀';
+}
+
+ #content blockquote{
+  border: 4px double #c0c0c0;
+  padding: 20px 40px;
+  margin: 40px 80px;
+  border-radius: 30px 0;
+  background-color: #011376;
+  color: #ffffff;
+  line-height: 1.4;
+  text-shadow: 2px 2px #000;
+}
+
+#content blockquote cite{
+display:block;
+text-align:right;
+margin-top:1rem;
+}
+
+
+aside .widget footer{
+display:none;
+}
+
+#content details {
+  color:rgb(15, 15, 67);
+}
+
+#colophon{
+  background-color: rgb(8, 7, 31);
+text-align:center;
+padding: 10px;
+color:white;
+font-size:1.5rem;
+}
+
+#blog .post{
+  transition: .5s;
+  box-shadow: 0 6px 14px lightblue;
+  background-color:#c7c5c5;
+  gap:2rem;
+  border-bottom:2px solid rgb(40, 40, 183);
+  border-left:2px solid rgb(40, 40, 183);
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding-left: 10rem;
+  border-top: 2px solid rgb(40, 40, 183);
+  border-right: 2px solid rgb(40, 40, 183);
+  padding-top: 1rem;
+  padding-right:10rem;
+  text-align:center;
+}
+#blog .post:hover{
+  box-shadow: 0 10px 20px blue;
+}
+
+.container  .img{
+max-width: 600px;
+max-height:800px;
+}
+
+#blog figure{
+  margin:0;
+}
+
+#blog figcaption{
+  text-transform:uppercase;
+  font-size: 1.5rem;
+  text-align:center;
+  color:rgb(15, 15, 67);
+}
+
+
+@media screen and (max-width:600px){
+    header.primary ul {
+     flex-direction: column;
+     gap:20px;
+     max-width:200px;
+     margin:auto;
+    }
+    header.primary nav a {
+      display:block;
+    }
+  }
