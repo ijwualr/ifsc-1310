@@ -30,7 +30,9 @@ img{
     float:right;
     border:3px solid #000057;
     max-width:50%;
+    margin-left:50px;
   }
+  
   
   .img3{
     max-width:55%;
@@ -46,19 +48,23 @@ img{
     float:right;
     border:3px solid #000057;
     max-width:45%;
+    margin-left:50px;
   }
 
   .img5{
     margin:25px;
     float:right;
     border:3px solid #000057;
-    max-width:30%;
+    max-width:40%;
+    margin-left:50px;
   }
+
   .img6{
     margin:25px;
     float:right;
     border:3px solid #000057;
-    max-width:30%;
+    max-width:40%;
+    margin-left:50px;
   }
   
 
@@ -215,6 +221,11 @@ display:none;
   color:rgb(15, 15, 67);
 }
 
+#FAQ h2{
+  color:darkblue;
+  border-bottom:2px dotted rgb(29, 1, 67);
+}
+
 #colophon{
   background-color: rgb(8, 7, 31);
 text-align:center;
@@ -239,17 +250,13 @@ font-size:1.5rem;
   padding-right:10rem;
   text-align:center;
 }
+
 #blog .post:hover{
   box-shadow: 0 10px 20px blue;
 }
 
-.container  .img{
-max-width: 600px;
-max-height:800px;
-}
-
 #blog figure{
-  margin:0;
+  margin:-5px;
 }
 
 #blog figcaption{
@@ -258,7 +265,6 @@ max-height:800px;
   text-align:center;
   color:rgb(15, 15, 67);
 }
-
 
 @media screen and (max-width:600px){
     header.primary ul {
