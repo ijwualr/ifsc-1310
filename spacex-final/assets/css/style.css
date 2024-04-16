@@ -1,6 +1,6 @@
 /*---CSS Demo---*/
 body{
-    background-color:#c7c5c5;
+    background-color:#edeffb;
 }
 /*  ---------------Box Sizing-----------------  */
 
@@ -96,8 +96,9 @@ background-size:1475px;
 
   header.primary h1 a{
   color:#c7c5c5;
-  text-decoration-style:underline;
+  text-decoration: none;
   }
+
 
   header.primary h2 {
     margin:0;
@@ -265,6 +266,7 @@ font-size:1.5rem;
   text-align:center;
   color:rgb(15, 15, 67);
 }
+
 
 @media screen and (max-width:600px){
     header.primary ul {
