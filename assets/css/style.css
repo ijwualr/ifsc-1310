@@ -59,6 +59,12 @@ li.primary {
 
 }
 
+#content p{
+  margin-left:20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkblue;
+}
+
 #content h2{
   color:darkblue;
     border-bottom:2px solid black;
