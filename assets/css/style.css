@@ -83,4 +83,8 @@ li.primary {
   margin-right:20px;
 }
 
+#content li{
+list-style-type: square;
+margin-left: 20px;
+}
 
